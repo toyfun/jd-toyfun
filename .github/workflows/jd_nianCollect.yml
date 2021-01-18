@@ -6,7 +6,7 @@ name: 炸年兽专门收集爆竹
 on:
     workflow_dispatch:
     schedule:
-        - cron: "0 16 * * *"
+        - cron: "20 * * * *"
     watch:
         types: [started]
     repository_dispatch:
