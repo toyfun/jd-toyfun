@@ -166,53 +166,53 @@ async function downloader_jd() {
         await download("https://gitee.com/toyfunlee/jd_scripts/raw/master/jdCookie.js", "./jdCookie.js", "京东Cookies");
     if (remoteContent.indexOf("jdFruitShareCodes") > 0) {
         await download(
-            "https://gitee.com/lxk0301/jd_scripts/raw/master/jdFruitShareCodes.js",
+            "https://raw.githubusercontent.com/toyfun/JD_toyfun-LXK/master/jdFruitShareCodes.js",
             "./jdFruitShareCodes.js",
             "东东农场互助码"
         );
     }
     if (remoteContent.indexOf("jdPetShareCodes") > 0) {
         await download(
-            "https://gitee.com/lxk0301/jd_scripts/raw/master/jdPetShareCodes.js",
+            "https://raw.githubusercontent.com/toyfun/JD_toyfun-LXK/master/jdPetShareCodes.js",
             "./jdPetShareCodes.js",
             "京东萌宠"
         );
     }
     if (remoteContent.indexOf("jdPlantBeanShareCodes") > 0) {
         await download(
-            "https://gitee.com/lxk0301/jd_scripts/raw/master/jdPlantBeanShareCodes.js",
+            "https://raw.githubusercontent.com/toyfun/JD_toyfun-LXK/master/jdPlantBeanShareCodes.js",
             "./jdPlantBeanShareCodes.js",
             "种豆得豆互助码"
         );
     }
     if (remoteContent.indexOf("jdSuperMarketShareCodes") > 0)
         await download(
-            "https://gitee.com/lxk0301/jd_scripts/raw/master/jdSuperMarketShareCodes.js",
+            "https://raw.githubusercontent.com/toyfun/JD_toyfun-LXK/master/jdSuperMarketShareCodes.js",
             "./jdSuperMarketShareCodes.js",
             "京小超互助码"
         );
     if (remoteContent.indexOf("jdFactoryShareCodes") > 0) {
         await download(
-            "https://gitee.com/lxk0301/jd_scripts/raw/master/jdFactoryShareCodes.js",
+            "https://raw.githubusercontent.com/toyfun/JD_toyfun-LXK/master/jdFactoryShareCodes.js",
             "./jdFactoryShareCodes.js",
             "东东工厂互助码"
         );
     }
     if (remoteContent.indexOf("jdDreamFactoryShareCodes") > 0) {
         await download(
-            "https://gitee.com/lxk0301/jd_scripts/raw/master/jdDreamFactoryShareCodes.js",
+            "https://raw.githubusercontent.com/toyfun/JD_toyfun-LXK/master/jdDreamFactoryShareCodes.js",
             "./jdDreamFactoryShareCodes.js",
             "京喜工厂互助码"
         );
     }
     if (remoteContent.indexOf("new Env('京喜农场')") > 0) {
         await download(
-            "https://gitee.com/lxk0301/jd_scripts/raw/master/jdJxncTokens.js",
+            "https://raw.githubusercontent.com/toyfun/JD_toyfun-LXK/master/jdJxncTokens.js",
             "./jdJxncTokens.js",
             "京喜农场Token"
         );
         await download(
-            "https://gitee.com/lxk0301/jd_scripts/raw/master/jdJxncShareCodes.js",
+            "https://raw.githubusercontent.com/toyfun/JD_toyfun-LXK/master/jdJxncShareCodes.js",
             "./jdJxncShareCodes.js",
             "京喜农场分享码"
         );
